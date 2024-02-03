@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(236,0,0);
+    background: linear-gradient(90deg, rgba(236,0,0,1) 0%, rgba(143,251,135,1) 0%, rgba(135,255,219,1) 48%, rgb(221, 255, 3) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quiz{
+    border: 1px solid rgb(240, 254, 254);
+    border-radius: 10px;
+    padding: 30px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
